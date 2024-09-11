@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStoredValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setStoredValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getStoredValue()": {
+					"returns": {
+						"_0": "The stored integer value"
+					}
+				},
+				"setStoredValue(uint256)": {
+					"params": {
+						"_value": "The value to be stored"
+					}
+				}
+			},
+			"title": "Simple Storage Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getStoredValue()": {
+					"notice": "Retrieves the stored integer value"
+				},
+				"setStoredValue(uint256)": {
+					"notice": "Stores a single integer value"
+				}
+			},
+			"notice": "This contract allows storing and retrieving a single integer value.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment2/Q2.sol": "SimpleStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment2/Q2.sol": {
+			"keccak256": "0x08b481c975160deccd9ce3a5d9775d8e4a849bc747b1ebff74b2c180f8ddc4f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf2a3ea721b330e7a5a77c997a3ef5baf576f83eddd3da50e843ad494c9a1fc1",
+				"dweb:/ipfs/QmR6gRYxeiMLWu8gogHPu9wmWTFoP8bugR3a4TawN2hHrr"
+			]
+		}
+	},
+	"version": 1
+}

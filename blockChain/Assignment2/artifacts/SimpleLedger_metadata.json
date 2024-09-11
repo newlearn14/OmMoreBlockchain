@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTransaction",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"addTransaction(address,uint256)": {
+					"params": {
+						"_amount": "The transaction amount",
+						"_to": "The recipient's address"
+					}
+				},
+				"getTransaction(uint256)": {
+					"params": {
+						"_index": "The index of the transaction"
+					},
+					"returns": {
+						"_0": "The transaction details"
+					}
+				}
+			},
+			"title": "Simple Ledger Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"addTransaction(address,uint256)": {
+					"notice": "Adds a transaction to the ledger"
+				},
+				"getTransaction(uint256)": {
+					"notice": "Retrieves a transaction by its index"
+				}
+			},
+			"notice": "This contract maintains a ledger of transactions with basic entries.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment2/Q9.sol": "SimpleLedger"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment2/Q9.sol": {
+			"keccak256": "0xdacdb1584aad992614935f4e838b04d0148500759b66ce4b0256385e120e6a04",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2054211f7124ab517abdadcc0c939c6e25c78ae89459c8e2d9af5ef8362c9154",
+				"dweb:/ipfs/QmY358Tsg3LMKurhPqafJ2LS6UikJjnh8MKpQwLc4NLssn"
+			]
+		}
+	},
+	"version": 1
+}

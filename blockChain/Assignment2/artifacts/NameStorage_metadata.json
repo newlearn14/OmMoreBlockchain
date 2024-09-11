@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getName()": {
+					"returns": {
+						"_0": "The stored name"
+					}
+				},
+				"setName(string)": {
+					"params": {
+						"_name": "The name to be stored"
+					}
+				}
+			},
+			"title": "Name Storage Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getName()": {
+					"notice": "Retrieves the stored name"
+				},
+				"setName(string)": {
+					"notice": "Stores the user's name"
+				}
+			},
+			"notice": "This contract allows storing and retrieving a user's name.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment2/Q5.sol": "NameStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment2/Q5.sol": {
+			"keccak256": "0x2d0586d64c551ddc775784495351ded5ea19f0de963b31f1512989ff9b7ba98f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7971629858e332bbe803538f2d9b24565882c8be677b5fd2ee26db1f375c89e1",
+				"dweb:/ipfs/QmWbqpRwtPo5PpB1DfDgpf4pLauUqXbaRHAfMaB8yDFk48"
+			]
+		}
+	},
+	"version": 1
+}

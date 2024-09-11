@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieveMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "storeMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"retrieveMessage()": {
+					"returns": {
+						"_0": "The stored message"
+					}
+				},
+				"storeMessage(string)": {
+					"params": {
+						"_message": "The message to be stored"
+					}
+				}
+			},
+			"title": "Message Storage Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"retrieveMessage()": {
+					"notice": "Retrieves the stored message string"
+				},
+				"storeMessage(string)": {
+					"notice": "Stores a message string"
+				}
+			},
+			"notice": "This contract allows a user to store and retrieve a message string.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment2/Q10.sol": "MessageStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment2/Q10.sol": {
+			"keccak256": "0x4884af14f21bedad33962c8d854bb2e61c15a24a3c1c4fcfe86481a9e4020a8e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a27b1f5a80e8c38ac4a676beb2804b9c28cc6507e5a709cd5fc0ae8bd8fab64",
+				"dweb:/ipfs/QmVVt6WGnKnX6dN7W1ZmPTXetxbVWeN9jSwborJiEHf6vR"
+			]
+		}
+	},
+	"version": 1
+}

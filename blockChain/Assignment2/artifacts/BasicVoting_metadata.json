@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_candidate",
+						"type": "string"
+					}
+				],
+				"name": "getVoteCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_candidate",
+						"type": "string"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getVoteCount(string)": {
+					"params": {
+						"_candidate": "The candidate's name"
+					},
+					"returns": {
+						"_0": "The vote count for the candidate"
+					}
+				},
+				"vote(string)": {
+					"params": {
+						"_candidate": "The candidate's name"
+					}
+				}
+			},
+			"title": "Basic Voting Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getVoteCount(string)": {
+					"notice": "Retrieves the vote count for a candidate"
+				},
+				"vote(string)": {
+					"notice": "Vote for a candidate"
+				}
+			},
+			"notice": "This contract allows users to vote for a candidate and keeps track of votes.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment2/Q6.sol": "BasicVoting"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment2/Q6.sol": {
+			"keccak256": "0x56e02267fbcec313800d011dd7f8b6fe1dd03897b7f0038499f80d9a3b88f8db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0ea86ebe34f7952c3b5feb28b6e26745bd3afac412d3fb561b1e94bbc1013c9",
+				"dweb:/ipfs/QmPcds11sxqLT9JhBordyfmJUCpLT5EZPgLkVhck5WQvvT"
+			]
+		}
+	},
+	"version": 1
+}
